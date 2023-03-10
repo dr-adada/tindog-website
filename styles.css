@@ -17,6 +17,15 @@ h1 {
     line-height: 1.5;
 }
 
+h3 {
+    font-family: 'Montserrat-bold';
+    font-size: 1.5rem;
+}
+
+p {
+    color: gray;
+}
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -44,4 +53,22 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
 }
